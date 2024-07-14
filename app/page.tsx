@@ -4,6 +4,7 @@ import CarsFiltersOptions from "@/components/Home/CarsFiltersOptions";
 import CarsList from "@/components/Home/CarsList";
 import Hero from "@/components/Home/Hero";
 import Searchinput from "@/components/Home/Searchinput";
+import { Component } from "@/components/component";
 import { Footer } from "@/components/footer";
 import { useEffect, useState } from "react";
 
@@ -33,6 +34,7 @@ export default function Home() {
       <Searchinput />
       <CarsFiltersOptions />
       <CarsList carsLists={carsLists}/>
+      <Component/>
       <Carcards/>
       <Footer/>
     </div>

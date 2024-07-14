@@ -5,7 +5,7 @@ function Hero() {
     <div className='grid  bg- grid-cols-1 md:grid-cols-2'>
       <div>
         <h2 className='text-[40px] md:text-[60px] font-bold'  >
-          Premiun car Rental in your area</h2>
+          Premium car Rental in your area</h2>
           <h2 className='text-[20px] text-gray-500 pr-20 mt-5'>
             Book the selected car effortelessly, Pay for Driving only, Book the Car Now</h2>
 

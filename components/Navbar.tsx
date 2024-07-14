@@ -70,10 +70,10 @@ function Navbar() {
       <Button variant="link">Contact Us</Button>
       </div>
 
-      <div className='flex gap-2 md:gap-6 items-center'>
-        <UserButton />
+      <div className='flex gap-3 md:gap-6 items-center'>
+        <UserButton  />
         <button ref={buttonRef} onClick={handleCartButtonClick}>
-          <h1 className='text-3xl '>
+          <h1 className='text-2xl '>
             <PiShoppingCartBold />
           </h1>
         </button>

@@ -7,7 +7,9 @@ export function Footer() {
       <div className="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
         <div className="flex flex-col items-start gap-6">
           <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold">Rental Car Application</span>
+            <Link href="#">
+              <span className="text-2xl font-bold" >Rental Car Application</span>
+              </Link>
           </div>
           <p className="text-muted-foreground">Rent the perfect car for your next adventure.</p>
         </div>
